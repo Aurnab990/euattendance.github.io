@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Attendence Management system for Eastern University </title><style type="text/css">
+
+.style1 {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 60px;
+	color: #FFFFFF;
+	font-style: bold;
+    height: auto;
+    
+    display: flex;
+}
+    .menu{
+		color: white;
+		background-color: black;
+		padding: 10px;
+		font-size: 1.3em;
+		text-decoration: none;
+	}
+	.menu:hover{
+		color: tomato;
+		background-color: aqua;
+		padding: 10px;
+		box-shadow: 5px 4px 5px 1px;
+	}
+.style2 {
+	font-size: 24px;
+	color: #0000FF;
+}
+    
+    marquee{
+        width: 100%;
+        height: 60px;
+        background-color: darkorange;
+        line-height: 75px;
+        padding: 0 100px;
+        position: fixed;
+        z-index: 1;
+        margin: 0px;
+        font-size: 20px;
+        font-family: sans-serif;
+        color: blue;
+        z-index: 1;
+        
+    }
+.style6 {
+    font-size: 16px
+    }
+    </style>
+
+
+
+	
+        
+ <body>  
+     <marquee>Eastern University Admission are going on.The Admission Office is located on Campus Building of the University & at the following addresses :Road 6, Block B, Ashulia Model Town, Akran, Savar Dhaka.
+Phone: 09602666651 Cell: 01844169651, 01844169659
+01844169660, 01741300002
+E-mail: admission@easternuni.edu.bd</marquee>
+    
+<table width="400" border="2" align="center">
+      <tr>
+        <td bordercolor="#330033" bgcolor="blue"><h1 align="center"><strong><span class="style1"><img src="https://webportal.easternuni.edu.bd/images/BannerX.jpg" align="center"></span></strong></h1></td>
+      </tr>
+    
+      
+    <br><br>
+    
+      <tr>
+        <td><div align="center">
+        <form action="insertmember.php" method="post">
+          <table width="400" border="0" align="center" bordercolor="#9966FF" bgcolor="white">
+            <tr>
+              <td colspan="2" bgcolor="#9999CC"><div align="center"><strong><span class="style2">Enter the student information</span></strong></div></td>
+            </tr>
+              
+            <tr>
+                
+              <td width="160"><span class="style6">Name</span></td>
+              <td width="222"><span class="style6"><input type="text" name="name" /></span></td>
+            </tr>
+              <tr>
+              <td><span class="style6">ID</span></td>
+              <td><span class="style6"><input type="text"  /></span></td>
+            </tr>
+                
+            <tr>
+              <td><span class="style6">Mobile</span></td>
+              <td><span class="style6"><input type="text" name="mobile" /></span></td>
+            </tr>
+            <tr>
+              <td><span class="style6">Email</span></td>
+              <td><span class="style6"><input type="email" name="email" /></span></td>
+            </tr>
+            <tr>
+              <td colspan="2"><div align="center">
+                <input type="submit" value="Add Student" name="btnsubmit"/>
+                &nbsp;&nbsp;
+                <input type="reset" value="Reset" name="btnreset"/>
+                  
+              </div></td>
+            </tr>
+          </table>
+          </form>
+        </div></td>
+      </tr>
+    </table>
+    $en = date("Y").$bid;
+
+    
+</body>
+</html>
